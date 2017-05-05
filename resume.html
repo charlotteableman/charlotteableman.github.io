@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
+    
+  <head>
     <meta charset="utf-8">
-    <title>Charlotte Ableman's Resume</title>
-    <link href="css/style.css" rel="stylesheet" />
-</head>
-    
-<body>
-    <header><h1>Charlotte Ableman - Graphic Designer</h1></header>
-    
-  <main>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work-experience">Work Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#key-skills">Key Skills</a></li>
-        <li><a href="#interests">Interests</a></li>
-      </ul>  
-    </nav>
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/print.css" rel="stylesheet" media="print"> 
       
+    <title>Charlotte Ableman's Resume</title>
+  </head>
+    
+  <body>
+    <img id="logo" src="images/charlogo.svg" alt="Charlotte's Logo" />
+      
+    <section class="section section--menu" id="Prospero">
+    <nav class="menu menu--prospero">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="index.html" class="menu__link">home</a>
+        </li>
+          
+        <li class="menu__item">
+          <a href="about.html" class="menu__link">about</a>
+        </li>
+          
+        <li class="menu__item">
+          <a href="portfolio.html" class="menu__link">portfolio</a>
+        </li>
+          
+        <li class="menu__item menu__item--current">
+        <a href="resume.html" class="menu__link">resume</a>
+        </li>
+      </ul>
+	</nav>
+    </section>
+    
+    <main>
+    <div id="wrapper">
+        
+    <h1>Charlotte Ableman - Graphic Designer</h1>
+     
+    <address id="right-col">
+      <h2>Contact Information</h2>
+        <p><strong>Coral Gables, FL, 33146</strong></p>
+        <p><strong>phone: (305)608-8112</strong></p>
+        <p><strong>email: charlotteableman95@gmail.com</strong></p>
+        <p><strong>url: www.charlotteableman.com</strong></p>
+    </address> 
+        
     <section id="about">
       <h2>About</h2>
-        <p>I was born in Miami, Florida and have lived here my whole like. I am in my junior year at the University of Miami in the School of Communications majoring in Creative Advertising. I have two minors: Marketing and Interactive Media. I am hard working, friendly, and am eager to build my design experience in an agency environment.</p>
+        <p>I was born in Miami, Florida and have lived here my whole life. I am in my junior year at the University of Miami in the School of Communications majoring in Creative Advertising. I have two minors: Marketing and Interactive Media. I am hard working, friendly, and am eager to build my design experience in an agency environment.</p>
     </section>
     
     <section id="work-experience">
       <h2>Work Experience</h2> 
       <article>
         <h3>Photographer &amp; Designer @ <a href="http://climbcardiocore.com/">ClimbCardioCore Studio</a></h3>
-          <h5>South Miami, FL</h5>
-          <h6>September 2016 - November 2016</h6>
+          <p class="location">South Miami, FL</p>
+          <p class="time">September 2016 - November 2016</p>
           <p>I worked on a freelance project for a new pilates and cardio studio. I photographed and edited content for their mobile app, social media, and website.</p>
       </article>
         
       <article>
           <h3>Jr. Graphic Designer @ <a href="http://www.roninadv.com">Ronin Advertising Group</a></h3>
-           <h5>Coral Gables, FL</h5>
-           <h6>June 2016 - August 2016</h6>
+           <p class="location">Coral Gables, FL</p>
+           <p class="time">June 2016 - August 2016</p>
            <p>I worked as a graphic design intern and assisted in agency work for their clients. I was assigned to a specific account to handle and create content for them.</p>
       </article>
         
       <article>
           <h3>Senior Counselor @ <a href="http://www.nojcc.org">JCC Summer Camp</a></h3>
-          <h5>New Orleans, LA</h5>
-          <h6>June 2015 - August 2015</h6>
+          <p class="location">New Orleans, LA</p>
+          <p class="time">June 2015 - August 2015</p>
           <p>I worked with children ages 2-3. I assisted the Head Counselor with daily activities and conflict management, paying close attention to camper dynamics, adding to camp morale and spirit. I helped the lifeguards during swim sessions and reported/resolved injuries of the campers.</p>
       </article>
     </section>
@@ -54,14 +81,15 @@
       <h2>Education</h2>
       <article>
           <a href="http://www.miami.edu"><h3>University of Miami</h3></a>
-          <h6>Current Student - Class of 2018</h6>
+          <p class="time">Current Student - Class of 2018</p>
           <p>Majoring in Creative Advertising</p>
           <p>Minors in Marketing and Interactive Media</p>
+          <p><strong>Dean's List: Fall '15, Spring '16, Fall '17</strong></p>
       </article>
         
       <article>
           <a href="http://www.gulliverschools.org"><h3>Gulliver Preparatory School</h3></a>
-          <h6>High School Diploma - Class of 2014</h6>
+          <p class="time">High School Diploma - Class of 2014</p>
       </article>
     </section>
       
@@ -73,9 +101,8 @@
         <li>Adobe InDesign</li>
         <li>Adobe Lightroom</li>
         <li>Adobe Premiere</li>
-        <li>Photo Retouch</li>
         <li>Marketing</li>
-        <li>Digital Marketing</li>
+        <li>Web Design</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>WordPress</li>
@@ -94,16 +121,9 @@
         <li>Scuba Diving</li>
       </ul>
     </section>
-      
-    <address>
-        <img src="images/resume_pic.jpg">
-        <h4>Contact Information</h4>
-        <h6>Address: South Miami, FL, 33143</h6>
-        <h6>Email: cpa14@miami.edu</h6>
-        <h6>Phone: (305) 608-8112</h6>
-        <h6>Web Site: www.charlotteableman.com</h6>
-    </address>
-      
+</div> 
+        
   </main>
 </body>
+
 </html>

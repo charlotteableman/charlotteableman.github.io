@@ -1,0 +1,48 @@
+@page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+}
+
+h1 {
+    font-size: 30pt;
+    color: black;
+    background: transparent !important;
+    border: none;
+    margin: 0;
+}
+
+nav {
+    display: none;
+}
+
+#logo {
+    width: 2cm;
+}
+
+#about {
+    border: none;
+}
+
+h2, h3, p {
+    color: black;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 15pt;
+}
+
+#right-col {
+    border: none;
+}
+
+p {
+    font-size: 12pt;
+}
+
+a {
+    color: black;
+}
